@@ -60,6 +60,19 @@ AI & Data Science graduate passionate about closing the gap between research and
 
 ## 🚀 Featured Projects
 
+### 🌑 [Shadow LLM Platform](https://github.com/Sabharisriram/shadow-llm-platform)
+> Production-grade MLOps platform to validate a new LLM on live traffic before cutover — zero user impact
+
+- **Shadow deployment engine** — mirrors every production request to a candidate model asynchronously, response never shown to users
+- Dual scoring via **sentence-transformers (MiniLM-L6-v2)** semantic similarity + **NLTK BLEU-4** lexical scoring on a `ThreadPoolExecutor`
+- **Auto-promotion engine** with 3 pluggable strategies (Conservative / Aggressive / Rollback) — adjusts traffic 0% → 100% using a 1-hour rolling PostgreSQL window, every 5 mins
+- Full observability: **structlog** JSON + **Prometheus** (5 metric families) + **OpenTelemetry** OTLP spans + **Grafana** 4-panel dashboard
+- Hermetic test suite — 64 tests with in-memory SQLite, zero external services, zero ML model downloads
+
+`Python` `FastAPI` `PostgreSQL` `Redis` `Docker Compose` `Prometheus` `Grafana` `React` `MLOps`
+
+---
+
 ### 🤖 [AI Study Assistant](https://github.com/Sabharisriram/ai-study-assistant)
 > Multi-user RAG application — upload PDFs/images, get context-aware answers powered by LLMs
 
