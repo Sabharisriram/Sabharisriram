@@ -6,9 +6,9 @@
 </p>
 
 <p align="center">
+  <a href="https://sabhari-sriram.vercel.app/"><img src="https://img.shields.io/badge/Portfolio-Visit-FF5733?style=flat-square&logo=vercel&logoColor=white"/></a>
   <a href="mailto:sabharisriram@gmail.com"><img src="https://img.shields.io/badge/Email-sabharisriram%40gmail.com-blue?style=flat-square&logo=gmail&logoColor=white"/></a>
-  <a href="https://linkedin.com/in/YOUR_LINKEDIN"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat-square&logo=linkedin&logoColor=white"/></a>
-  <a href="https://leetcode.com/YOUR_LEETCODE"><img src="https://img.shields.io/badge/LeetCode-Profile-FFA116?style=flat-square&logo=leetcode&logoColor=white"/></a>
+  <a href="https://www.linkedin.com/in/sabhari-sriram"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat-square&logo=linkedin&logoColor=white"/></a>
 </p>
 
 ---
